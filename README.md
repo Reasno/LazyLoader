@@ -17,7 +17,7 @@ Hyperf的长生命周期依赖注入在项目启动时完成。这意味着长�
 ## 安装
 
 ```bash
-composer require hyperf/lazy-loader
+composer require reasno/lazy-loader
 ```
 
 ## 实战
