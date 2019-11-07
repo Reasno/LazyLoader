@@ -141,7 +141,3 @@ unset($proxy->someProperty);
 $trueObject = $proxy->getInstance();
 ```
 
-## 开发者注
-
-PRE-ALPHA。本组件 100% cool 但是 20% useful。目前只为展示Hyperf DI的灵活性抛砖引玉，不建议生产使用。
-
