@@ -1,5 +1,7 @@
 # Hyperf懒加载器
 
+[![Build Status](https://travis-ci.org/Reasno/LazyLoader.svg?branch=master)](https://travis-ci.org/Reasno/LazyLoader)
+
 Hyperf的长生命周期依赖注入在项目启动时完成。这意味着长生命周期的类需要注意：
 
 * 构造函数时还不是协程环境，如果注入了可能会触发协程切换的类，就会导致框架启动失败。
